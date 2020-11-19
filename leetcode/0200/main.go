@@ -18,6 +18,7 @@ func main() {
 	fmt.Printf("The number of islands: %d\n", r)
 }
 
+/*
 func numIslands(grid [][]byte) int {
 
 	if len(grid) == 0 {
@@ -63,7 +64,9 @@ func initUF(size int) *unionFind {
 	return &uf
 }
 
-/** DFS Submission below:
+*/
+
+// DFS Submission below:
 func dfs(grid *[][]byte, row, col int) {
 	if row < 0 || col < 0 || row >= len(*grid) || col >= len((*grid)[0]) || (*grid)[row][col] == '0' {
 		return
@@ -97,7 +100,6 @@ func numIslands(grid [][]byte) int {
 
 	return islands
 }
-*/
 
 /** BFS Submission below:
 

@@ -29,6 +29,7 @@
 | 315       | Count of Smaller Numbers after Self        | Yes        | https://leetcode.com/problems/count-of-smaller-numbers-after-self/          |
 | 328       | Odd Even Linked List                       | Yes        | https://leetcode.com/problems/odd-even-linked-list/                         |
 | 337       | House Robber III                           | No         | https://leetcode.com/problems/house-robber-iii/                             |
+| 342       | Power of Four                              | Yes        | https://leetcode.com/problems/power-of-four/                                |
 | 380       | Insert Delete GetRandom O(1)               | Yes        | https://leetcode.com/problems/insert-delete-getrandom-o1/                   |
 | 393       | UTF-8 Validation                           | Yes        | https://leetcode.com/problems/utf-8-validation/                             |
 | 398       | Random Pick Index                          | Yes        | https://leetcode.com/problems/random-pick-index/                            |
@@ -38,6 +39,7 @@
 | 547       | Friend Circles                             | Yes        | https://leetcode.com/problems/friend-circles/                               |
 | 684       | Redundant Connections                      | Yes        | https://leetcode.com/problems/redundant-connection/                         |
 | 710       | Random Pick with Blacklist                 | No         | https://leetcode.com/problems/random-pick-with-blacklist/                   |
+| 733       | Flood Fill                                 | Yes        | https://leetcode.com/problems/flood-fill/                                   |
 | 784       | Letter Case Permutation                    | No         | https://leetcode.com/problems/letter-case-permutation/                      |
 | 785       | Is Graph Bipartite?                        | Yes        | https://leetcode.com/problems/is-graph-bipartite/                           |
 | 881       | Boats to Save People                       | Yes        | https://leetcode.com/problems/boats-to-save-people/                         |
