@@ -39,6 +39,7 @@
 | 399       | Evaluate Division                          | No         | https://leetcode.com/problems/evaluate-division/                            |
 | 504       | Base 7                                     | Yes        | https://leetcode.com/problems/base-7/                                       |
 | 528       | Random Pick With Weight                    | Yes        | https://leetcode.com/problems/random-pick-with-weight/                      |
+| 539       | Minimum Time Difference                    | No         | https://leetcode.com/problems/minimum-time-difference/                      |
 | 547       | Friend Circles                             | Yes        | https://leetcode.com/problems/friend-circles/                               |
 | 684       | Redundant Connections                      | Yes        | https://leetcode.com/problems/redundant-connection/                         |
 | 695       | Max Area of Island                         | Yes        | https://leetcode.com/problems/max-area-of-island/                           |
