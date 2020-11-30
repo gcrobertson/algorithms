@@ -8,6 +8,7 @@
 |  26       | Remove Duplicates from Sorted Array        | Yes        | https://leetcode.com/problems/remove-duplicates-from-sorted-array/          |
 |  57       | Insert Interval                            | No         | https://leetcode.com/problems/insert-interval/                              |
 |  68       | Text Justification                         | No         | https://leetcode.com/problems/text-justification/                           |
+|  72       | Edit Distance                              | Yes        | https://leetcode.com/problems/edit-distance/                                |
 |  76       | Minimum Window Substring                   | No         | https://leetcode.com/problems/minimum-window-substring/                     |
 |  84       | Largest Rectangle in Histogram             | Yes        | https://leetcode.com/problems/largest-rectangle-in-histogram/               |
 |  85       | Maximal Rectangle                          | No         | https://leetcode.com/problems/maximal-rectangle/                            |
