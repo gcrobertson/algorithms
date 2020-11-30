@@ -39,6 +39,7 @@
 | 528       | Random Pick With Weight                    | Yes        | https://leetcode.com/problems/random-pick-with-weight/                      |
 | 547       | Friend Circles                             | Yes        | https://leetcode.com/problems/friend-circles/                               |
 | 684       | Redundant Connections                      | Yes        | https://leetcode.com/problems/redundant-connection/                         |
+| 695       | Max Area of Island                         | Yes        | https://leetcode.com/problems/max-area-of-island/                           |
 | 710       | Random Pick with Blacklist                 | No         | https://leetcode.com/problems/random-pick-with-blacklist/                   |
 | 733       | Flood Fill                                 | Yes        | https://leetcode.com/problems/flood-fill/                                   |
 | 784       | Letter Case Permutation                    | No         | https://leetcode.com/problems/letter-case-permutation/                      |
