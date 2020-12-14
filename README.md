@@ -28,6 +28,7 @@
 | 217       | Contains Duplicate                         | Yes        | https://leetcode.com/problems/contains-duplicate/                           |
 | 236       | Lowest Common Ancestor of a Binary Tree    | Yes        | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/      |
 | 238       | Product of Array Except Self               | Yes        | https://leetcode.com/problems/product-of-array-except-self/                 |
+| 269       | Alien Dictionary                           | Yes        | https://leetcode.com/problems/alien-dictionary/                             |
 | 289       | Game of Life                               | Yes        | https://leetcode.com/problems/game-of-life/                                 |
 | 299       | Bulls and Cows                             | Yes        | https://leetcode.com/problems/bulls-and-cows/                               |
 | 315       | Count of Smaller Numbers after Self        | Yes        | https://leetcode.com/problems/count-of-smaller-numbers-after-self/          |
@@ -46,6 +47,7 @@
 | 695       | Max Area of Island                         | Yes        | https://leetcode.com/problems/max-area-of-island/                           |
 | 710       | Random Pick with Blacklist                 | No         | https://leetcode.com/problems/random-pick-with-blacklist/                   |
 | 733       | Flood Fill                                 | Yes        | https://leetcode.com/problems/flood-fill/                                   |
+| 763       | Partition Labels                           | Yes        | https://leetcode.com/problems/partition-labels/                             |
 | 784       | Letter Case Permutation                    | No         | https://leetcode.com/problems/letter-case-permutation/                      |
 | 785       | Is Graph Bipartite?                        | Yes        | https://leetcode.com/problems/is-graph-bipartite/                           |
 | 881       | Boats to Save People                       | Yes        | https://leetcode.com/problems/boats-to-save-people/                         |
@@ -53,7 +55,6 @@
 |1232       | Check If It Is a Straight Line             | Yes        | https://leetcode.com/problems/check-if-it-is-a-straight-line/               |
 |1480       | Running Sum of 1d Array                    | Yes        | https://leetcode.com/problems/running-sum-of-1d-array/                      |
 |1486       | XOR Operation in an Array                  | No         | https://leetcode.com/problems/xor-operation-in-an-array/                    |
-
 
 
 
