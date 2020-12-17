@@ -6,6 +6,7 @@
 |  17       | Letter Combinations of a Phone Number      | No         | https://leetcode.com/problems/letter-combinations-of-a-phone-number/        |
 |  21       | Merge Two Sorted Lists                     | Yes        | https://leetcode.com/problems/merge-two-sorted-lists/                       |
 |  26       | Remove Duplicates from Sorted Array        | Yes        | https://leetcode.com/problems/remove-duplicates-from-sorted-array/          |
+|  53       | Maximum Subarray                           | Yes        | https://leetcode.com/problems/maximum-subarray/                             |
 |  56       | Merge Intervals                            | Yes        | https://leetcode.com/problems/merge-intervals/                              |
 |  57       | Insert Interval                            | No         | https://leetcode.com/problems/insert-interval/                              |
 |  68       | Text Justification                         | No         | https://leetcode.com/problems/text-justification/                           |
