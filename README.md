@@ -40,6 +40,7 @@
 | 393       | UTF-8 Validation                           | Yes        | https://leetcode.com/problems/utf-8-validation/                             |
 | 398       | Random Pick Index                          | Yes        | https://leetcode.com/problems/random-pick-index/                            |
 | 399       | Evaluate Division                          | No         | https://leetcode.com/problems/evaluate-division/                            |
+| 443       | String Compression                         | Yes        | https://leetcode.com/problems/string-compression/                           |
 | 504       | Base 7                                     | Yes        | https://leetcode.com/problems/base-7/                                       |
 | 528       | Random Pick With Weight                    | Yes        | https://leetcode.com/problems/random-pick-with-weight/                      |
 | 539       | Minimum Time Difference                    | No         | https://leetcode.com/problems/minimum-time-difference/                      |
