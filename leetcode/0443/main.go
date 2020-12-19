@@ -5,9 +5,7 @@ import "fmt"
 func main() {
 
 	chars := []byte{97, 97, 98, 98, 99, 99, 99} //aabbccc			//a2b2c3
-
 	result := compress(chars)
-
 	expect := 6
 
 	fmt.Printf("Does the result [%v] match the expectation [%v]? [%v]\n", result, expect, result == expect)
@@ -15,7 +13,6 @@ func main() {
 	chars = chars[0:result]
 
 	fmt.Println(string(chars))
-
 }
 
 func compress(chars []byte) int {

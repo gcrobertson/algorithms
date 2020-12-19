@@ -20,6 +20,7 @@
 | 121       | Best Time to Buy and Sell Stock            | Yes        | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/              |
 | 133       | Clone Graph                                | Yes        | https://leetcode.com/problems/clone-graph/                                  |
 | 143       | Reorder List                               | Yes        | https://leetcode.com/problems/reorder-list/                                 |
+| 152       | Maximum Product Subarray                   | No         | https://leetcode.com/problems/maximum-product-subarray/                     |
 | 155       | Min Stack                                  | Yes        | https://leetcode.com/problems/min-stack/                                    |
 | 189       | Rotate Array                               | Yes        | https://leetcode.com/problems/rotate-array/                                 |
 | 198       | House Robber                               | Yes        | https://leetcode.com/problems/house-robber/                                 |
