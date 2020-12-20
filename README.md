@@ -21,6 +21,7 @@
 | 133       | Clone Graph                                | Yes        | https://leetcode.com/problems/clone-graph/                                  |
 | 143       | Reorder List                               | Yes        | https://leetcode.com/problems/reorder-list/                                 |
 | 152       | Maximum Product Subarray                   | Yes        | https://leetcode.com/problems/maximum-product-subarray/                     |
+| 153       | Find Minimum in Rotated Sorted Array       | Yes        | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/         |
 | 155       | Min Stack                                  | Yes        | https://leetcode.com/problems/min-stack/                                    |
 | 189       | Rotate Array                               | Yes        | https://leetcode.com/problems/rotate-array/                                 |
 | 198       | House Robber                               | Yes        | https://leetcode.com/problems/house-robber/                                 |
