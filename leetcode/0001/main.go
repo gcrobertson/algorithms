@@ -30,7 +30,8 @@ func main() {
 // https://leetcode.com/list/xy8qu5y1/ google top 50: #1
 // https://leetcode.com/problems/two-sum/
 
-func twoSum(nums []int, target int) []int {
+// Brute Force approach ... O(n²)
+func twoSumBruteForce(nums []int, target int) []int {
 
 	for i := 0; i < len(nums)-1; i++ {
 
@@ -41,5 +42,11 @@ func twoSum(nums []int, target int) []int {
 			}
 		}
 	}
+	return []int{}
+}
+
+// @TODO: Improve the solution above so that I can solve: #0015, # 0167
+func twoSum(nums []int, target int) []int {
+
 	return []int{}
 }
