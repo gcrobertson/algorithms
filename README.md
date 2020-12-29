@@ -25,7 +25,7 @@
 | 152       | Maximum Product Subarray                   | Yes        | https://leetcode.com/problems/maximum-product-subarray/                     |
 | 153       | Find Minimum in Rotated Sorted Array       | Yes        | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/         |
 | 155       | Min Stack                                  | Yes        | https://leetcode.com/problems/min-stack/                                    |
-| 167       | Two Sum II - Input array is sorted         | No         | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/             |
+| 167       | Two Sum II - Input array is sorted         | Yes        | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/             |
 | 189       | Rotate Array                               | Yes        | https://leetcode.com/problems/rotate-array/                                 |
 | 198       | House Robber                               | Yes        | https://leetcode.com/problems/house-robber/                                 |
 | 200       | Number of Islands                          | Yes        | https://leetcode.com/problems/number-of-islands/                            |
