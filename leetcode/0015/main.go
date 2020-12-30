@@ -67,12 +67,6 @@ func threeSumBruteForce(nums []int) [][]int {
 // - https://leetcode.com/problems/two-sum
 // - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
 
-// Approach 1: 2 Pointers
-
-// Approach 2: Hash set
-
-// Approach 3: No sort
-
 /*	Approach 1: 2 Pointers
  *
  *

@@ -1,7 +1,55 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
+func main() {
+
+	input := []string{"flower", "flow", "flight"}
+
+	expect := "fl"
+
+	output := longestCommonPrefix(input)
+
+	fmt.Printf("Does the output match the expectation? %v\n", expect == output)
+
+}
+
+func longestCommonPrefix(strs []string) string {
+
+	if len(strs) == 0 {
+		return ""
+	}
+
+	var curprefix int
+
+	maxprefix := len(strs[0])
+
+	for word := 0; word < len(strs); word++ {
+
+		curprefix = 0
+
+		minword := int(math.Min(float64(len(strs[0])), float64(len(strs[word]))))
+
+		for index := 0; index < minword; index++ {
+
+			if strs[word][index] == strs[0][index] {
+
+				curprefix++
+			} else {
+				break
+			}
+		}
+
+		maxprefix = int(math.Min(float64(maxprefix), float64(curprefix)))
+	}
+
+	return strs[0][0:maxprefix]
+}
+
+/*
 type trieNode struct {
 	counter  int
 	children [26]*trieNode
@@ -69,3 +117,4 @@ func main() {
 
 	fmt.Printf("%v is the common prefix of strings %+v\n", r, xs)
 }
+*/
