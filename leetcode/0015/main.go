@@ -8,14 +8,16 @@ import (
 
 func main() {
 
-	input := []int{-1, 0, 1, 2, -1, -4}
+	// input := []int{-1, 0, 1, 2, -1, -4}
+
+	input := []int{-2, 0, 1, 1, 2}
 
 	// expect := [][]int{
 	// 	[]int{-1, -1, 2},
 	// 	[]int{-1, 0, 1},
 	// }
 
-	result := threeSum(input)
+	result := threeSumNoSort(input)
 
 	fmt.Printf("The result: %v\n", result)
 }
@@ -95,8 +97,10 @@ func threeSum(nums []int) [][]int {
 			continue // Skip on any duplicates. This works because slice is ordered ..
 		}
 
-		// call TwoSum for the current position i
-		result = twoSum(i, nums, result)
+		// call twoSumTwoPointers for the current position i
+		// result = twoSumTwoPointers(i, nums, result)
+
+		result = twoSumHashSum(i, nums, result)
 	}
 
 	return result
@@ -105,7 +109,7 @@ func threeSum(nums []int) [][]int {
 /*  Approach 1: `2 Pointers`
  *
  */
-func twoSum(i int, nums []int, result [][]int) [][]int {
+func twoSumTwoPointers(i int, nums []int, result [][]int) [][]int {
 
 	lo := i + 1
 	hi := len(nums) - 1
@@ -125,6 +129,88 @@ func twoSum(i int, nums []int, result [][]int) [][]int {
 			}
 		} else {
 			hi--
+		}
+	}
+
+	return result
+}
+
+/*	Approach 2: `Hash Sum`
+ *
+ *	Accepted:	360 ms	[faster than 24.72%]
+ * 				11.3MB	[less than 7.78%]
+ *
+ */
+func twoSumHashSum(i int, nums []int, result [][]int) [][]int {
+
+	seen := make(map[int]int)
+
+	for j := i + 1; j < len(nums); j++ {
+
+		complement := -nums[i] - nums[j]
+
+		if _, ok := seen[complement]; ok {
+			xi := []int{nums[i], nums[j], complement}
+			sort.Ints(xi)
+			result = append(result, xi)
+
+			// Skip any duplicates ...
+			for j+1 < len(nums) && nums[j] == nums[j+1] {
+				j++
+			}
+		}
+
+		// Add to the hash map before incrementing up ...
+		seen[nums[j]] = nums[j]
+	}
+
+	return result
+}
+
+/*	Approach 3: `No Sort`
+ *
+ *
+ *	This solution times out.  I believe it is working ...
+ *
+ */
+func threeSumNoSort(nums []int) [][]int {
+
+	var result [][]int
+
+	dups := make(map[int]int) // do not try to solve for the same number
+	seen := make(map[int]int) // make sure the hash value found is set inside current loop
+
+	// O(n) Iterate over all values
+	for i := 0; i < len(nums); i++ {
+
+		if _, ok := dups[nums[i]]; ok {
+			continue
+		}
+
+		dups[nums[i]] = nums[i]
+
+		for j := i + 1; j < len(nums); j++ {
+
+			complement := -nums[i] - nums[j]
+
+			if val, ok := seen[complement]; ok && val == i {
+
+				xi := []int{nums[i], complement, nums[j]}
+				sort.Ints(xi)
+
+				new := true
+				for _, x := range result {
+					if reflect.DeepEqual(x, xi) {
+						new = false
+						break
+					}
+				}
+				if new == true {
+					result = append(result, xi)
+				}
+			}
+
+			seen[nums[j]] = i // The number was seen in the current loop.
 		}
 	}
 
