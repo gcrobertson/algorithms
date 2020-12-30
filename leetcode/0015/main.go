@@ -61,59 +61,72 @@ func threeSumBruteForce(nums []int) [][]int {
 	return result
 }
 
-/*	What would make the Brute Force solution quicker?
+// Let me take a step back and go back over the following problems so that I can build off of their patterns:
+// - https://leetcode.com/problems/two-sum
+// - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
+
+// Approach 1: 2 Pointers
+
+// Approach 2: Hash set
+
+// Approach 3: No sort
+
+/*	Approach 1: 2 Pointers
  *
- *	The solution is re-testing a lot of the combinations.  How could I prevent that from happening?
  *
- *
+ *	Accepted: 	32 ms	[faster than 71.97%]
+ *				6.9 MB	[less than 85.36%]
  */
 func threeSum(nums []int) [][]int {
 
+	// O(n) Sort all of the inputs
+	sort.Ints(nums)
+
 	var result [][]int
 
-	if len(nums) < 3 {
-		return result
-	}
+	// O(n) Iterate over all values
+	for i := 0; i < len(nums); i++ {
 
-	// Let me take a step back and go back over the following problems so that I can build off of their patterns:
-	// - https://leetcode.com/problems/two-sum
-	// - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
+		if nums[i] > 0 {
+			break // I think this is maintaining that 1 number is negative or all numbers must be 0
+		}
+
+		if i > 0 && nums[i] == nums[i-1] {
+			continue // Skip on any duplicates. This works because slice is ordered ..
+		}
+
+		// call TwoSum for the current position i
+		result = twoSum(i, nums, result)
+	}
 
 	return result
 }
 
-/*
-	// We are given an array of ints,
-	// If any 3 values in the array sum to 0, add them to our result if they are not already there ...
+/*  Approach 1: `2 Pointers`
+ *
+ */
+func twoSum(i int, nums []int, result [][]int) [][]int {
 
-	// My first impression is I could collect all of the unique numbers in the array in a map along with the count of that number:
-	// map[-4] = 1
-	// map[-1] = 2
-	// map[0]  = 1
-	// map[1]  = 1
-	// map[2]  = 1
-	//
-	// this could be done in O(n) time.
+	lo := i + 1
+	hi := len(nums) - 1
 
-	// Then, I could form doubles or pairs with each unique combination.
-	// map[-4] > [-1] = needs a +5
-	// map[-4] > [ 0] = needs a +4
-	// map[-4] > [ 1] = needs a +3
-	// map[-4] > [ 2] = needs a +2, there is only 1.
-
-	// At this point I could discard the -4.
-
-	// map[-1] > [-1] = needs a +2, it is there!
-	// map[-1] > [ 0] = needs a +1, it is there!
-	// map[-1] > [ 1] = needs a  0, it is there!		// If I have any 2 already in the result set, I can just continue... because the 3rd number will always be the same.
-
-	// This is not a quick solution but I think it will work...
-
-		hashCount := make(map[int]int)
-
-		// O(n)
-		for _, num := range nums {
-			hashCount[num]++
+	for lo < hi {
+		sum := nums[lo] + nums[hi] + nums[i]
+		if sum < 0 {
+			lo++
+		} else if sum == 0 {
+			xi := []int{nums[lo], nums[i], nums[hi]}
+			sort.Ints(xi)
+			result = append(result, xi)
+			hi--
+			lo++
+			for lo < hi && nums[lo] == nums[lo-1] {
+				lo++
+			}
+		} else {
+			hi--
 		}
+	}
 
-*/
+	return result
+}

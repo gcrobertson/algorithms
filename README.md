@@ -4,7 +4,7 @@
 |   8       | String to Integer (atoi)                   | Yes        | https://leetcode.com/problems/string-to-integer-atoi/                       |
 |  11       | Container with Most Water                  | Yes        | https://leetcode.com/problems/container-with-most-water/                    |   TAG: "2 Pointer", "Array", "Brute Force"
 |  14       | Longest Common Prefix                      | No         | https://leetcode.com/problems/longest-common-prefix/                        |
-|  15       | 3Sum                                       | No         | https://leetcode.com/problems/3sum/                                         |
+|  15       | 3Sum                                       | Yes        | https://leetcode.com/problems/3sum/                                         |   TAG: "2 Pointer", "Array", "Brute Force"
 |  17       | Letter Combinations of a Phone Number      | No         | https://leetcode.com/problems/letter-combinations-of-a-phone-number/        |
 |  21       | Merge Two Sorted Lists                     | Yes        | https://leetcode.com/problems/merge-two-sorted-lists/                       |
 |  26       | Remove Duplicates from Sorted Array        | Yes        | https://leetcode.com/problems/remove-duplicates-from-sorted-array/          |
