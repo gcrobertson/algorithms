@@ -42,6 +42,7 @@
 | 328       | Odd Even Linked List                       | Yes        | https://leetcode.com/problems/odd-even-linked-list/                         |                        |
 | 337       | House Robber III                           | No         | https://leetcode.com/problems/house-robber-iii/                             |                        |
 | 342       | Power of Four                              | Yes        | https://leetcode.com/problems/power-of-four/                                |                        |
+| 371       | Sum of Two Integers                        | No         | https://leetcode.com/problems/sum-of-two-integers/                          | Bitwise Operators      |
 | 380       | Insert Delete GetRandom O(1)               | Yes        | https://leetcode.com/problems/insert-delete-getrandom-o1/                   |                        |
 | 393       | UTF-8 Validation                           | Yes        | https://leetcode.com/problems/utf-8-validation/                             |                        |
 | 398       | Random Pick Index                          | Yes        | https://leetcode.com/problems/random-pick-index/                            |                        |
