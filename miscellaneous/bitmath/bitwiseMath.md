@@ -91,7 +91,7 @@ according to this rule:
 
 
 
-#### Common Uses of Bitwise OR [ | ]
+#### Common Uses of Bitwise XOR [ ^ ]
 Bitwise XOR is often used toggle some of the bits in an integer expression while leaving others alone.
 To toggle the lowest bit in x and store the result in y:
 > y = x ^ 1
