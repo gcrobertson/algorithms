@@ -29,7 +29,7 @@ import (
 func main() {
 
 	ex1()
-	// ex2()
+	ex2()
 }
 
 func ex1() {
@@ -46,8 +46,8 @@ func ex2() {
 	fmt.Printf("Does result2 [%v] match expectation? [%v]\n", result2, result2 == 1)
 }
 
-// Solution 1.
-func hammingWeight(num uint32) int {
+// This was the solution I came up with on my own ...
+func hammingWeightSolution1(num uint32) int {
 
 	s := strconv.FormatUint(uint64(num), 2)
 
@@ -61,4 +61,28 @@ func hammingWeight(num uint32) int {
 	}
 
 	return result
+}
+
+// Using bit masking!!
+func hammingWeight(num uint32) int {
+
+	bits := 0
+	var mask uint32 // cannot be int ...
+
+	/*	Remember a common use of Bitwise AND [ & ]
+	 *	`Masking`: Select a particular bit (or bits) from an integer value.
+	 */
+	mask = 1
+
+	for i := 0; i < 32; i++ {
+
+		if (num & mask) != 0 {
+			bits++
+		}
+		mask = mask << 1
+
+		//fmt.Printf("mask: %32b\n", mask)
+	}
+
+	return bits
 }
