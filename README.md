@@ -28,6 +28,7 @@
 | 155       | Min Stack                                  | Yes        | https://leetcode.com/problems/min-stack/                                    |                        |
 | 167       | Two Sum II - Input array is sorted         | Yes        | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/             |                        |
 | 189       | Rotate Array                               | Yes        | https://leetcode.com/problems/rotate-array/                                 |                        |
+| 191       | Number of 1 Bits                           | No         | https://leetcode.com/problems/number-of-1-bits/                             | Bitwise Operators      |
 | 198       | House Robber                               | Yes        | https://leetcode.com/problems/house-robber/                                 |                        |
 | 200       | Number of Islands                          | Yes        | https://leetcode.com/problems/number-of-islands/                            |                        |
 | 207       | Course Schedule                            | Yes        | https://leetcode.com/problems/course-schedule/                              |                        |
