@@ -172,3 +172,81 @@ There is no shorthand assignment operator for Bitwise NOT.
 ⁴
 ⁵
 ⁶
+
+
+
+
+// Carry using the Bitwise AND &
+// Bitwise math: Bitwise & only shows the operations where carry remainder is needed
+// Carry is applied one position to the left of where it is discovered / created
+
+// Exclusive OR, XOR ^
+// Simulating addition can be done with the XOR operator.
+//
+//	1	0	1	0
+//	1	1	0	0
+//  =============
+//	0	1	1	0
+// XOR can perform the addition as seen above. The carry can be marked and a Bitwise shift can be used.
+
+// Left shift operator <<
+//
+// 1010 << 1 == 0100
+//
+// The & operator can mark which positions need to carry a value.
+// We apply the carry one position to the left of where it is discovered.
+//
+// In next iteration, we can apply these carry overs.
+
+// & 	to find operations needing carry
+// ^ 	to do addition operations in current iteration
+// << 	to turn carry into what is applied in next interation
+
+// variable A: hold running addition result
+// variable B: hold carries
+
+// Link: https://www.youtube.com/watch?v=qq64FrA2UXQ
+
+// 1. find carries
+// 2. do addition and store in A
+// 3. b holds left-shifted carries
+
+/*
+ *		original:
+ *			a = 1
+ *			b = 3
+ *
+ *
+ *		bitwise addition store carry overs with AND &:
+ *			0001
+ *			0011
+ *			----
+ *			0001
+ *
+ *		bitwise addition performed with XOR ^:
+ *			0001
+ *			0011
+ *			----
+ *			0010
+ *
+ *		left shift the carry result:
+ *		0001 << 1 == 0010
+ *
+ *		bitwise addition store carry overs with AND &:
+ *			0010
+ *			0010
+ *			----
+ *			0010
+ *
+ *		bitwise addition performed with XOR ^:
+ *			0010
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
