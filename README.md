@@ -42,6 +42,7 @@
 | 315       | Count of Smaller Numbers after Self        | Yes        | https://leetcode.com/problems/count-of-smaller-numbers-after-self/          |                        |
 | 328       | Odd Even Linked List                       | Yes        | https://leetcode.com/problems/odd-even-linked-list/                         |                        |
 | 337       | House Robber III                           | No         | https://leetcode.com/problems/house-robber-iii/                             |                        |
+| 338       | Counting Bits                              | No         | https://leetcode.com/problems/counting-bits/                                | Bitwise Operators      |
 | 342       | Power of Four                              | Yes        | https://leetcode.com/problems/power-of-four/                                |                        |
 | 371       | Sum of Two Integers                        | Yes        | https://leetcode.com/problems/sum-of-two-integers/                          | Bitwise Operators      |
 | 380       | Insert Delete GetRandom O(1)               | Yes        | https://leetcode.com/problems/insert-delete-getrandom-o1/                   |                        |
