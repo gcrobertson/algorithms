@@ -69,7 +69,7 @@ func approach1PopCount(x int) int {
 // Approach #2
 func countBits(num int) []int {
 
-	// See comment in : [https://leetcode.com/problems/counting-bits/solution/]
+	// See comment in : [https://leetcode.com/problems/counting-bits/solution/
 	// # num      0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16
 	// # bin(num) 0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 1011 1100 1101 1110 1111 10000
 	// # count    0    1    1    2    1    2    2    3    1    2    2    3    2    3    3    4    1
