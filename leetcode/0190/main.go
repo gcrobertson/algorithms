@@ -10,7 +10,9 @@ func main() {
 
 	// n = 00000010100101000001111010011100
 
-	n = 7 // 111
+	n = 43261596
+
+	// n = 7 // 111
 
 	r := reverseBits(n)
 
@@ -19,6 +21,9 @@ func main() {
 
 func reverseBits(num uint32) uint32 {
 
+	fmt.Printf("%032b\n", num) // of course, makes more sense now. uint32 stores it in decimal, needs to be converted into binary string!
+
+	return 0
 }
 
 func reverseBitsAnswerProvided(num uint32) uint32 {
