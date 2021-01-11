@@ -250,3 +250,57 @@ There is no shorthand assignment operator for Bitwise NOT.
  *
  *
  */
+
+
+ ## Ones Complement
+
+`Ones' Complement`:     The `Ones' Complement` of a binary number is defined as the value obtained by inverting all the bits in the binary representation of the number.
+                        More simply said, swapping 0s and 1s.
+
+`Ones' Complement System`:  A system in which negative numbers are represented by the inverse of the binary representations of their corresponding positive numbers.
+                            In such a system, a number is negated (converted from positive to negative or vice versa) by computing its ones' complement.
+
+### Number Representation in Ones Complement
+
+- The highest number will be the sign (high-order) bit off (0) and all other bits being on (1)
+- The lowest number will be the sign bit being on and all other bits being off.
+
+    +       -   
+0   0000    1111    // Both +0 and -0 return TRUE when tested for zero and FALSE when tested for non-zero
+1   0001    1110
+2   0010    1101
+3   0011    1100
+4   0100    1011
+5   0101    1010
+6   0110    1001
+7   0111    1000
+
+### Adding in Ones' Complement
+
+    0001 0110   22
++   0000 0011    3
+=============   ==
+    0001 1001   25
+
+- `End-around Carry`:   If the carry extends past the end of the most significant bit, it must be added back in at the right-most bit.
+                        This does not occur in `Twos Complement`
+
+### Subtracting in Ones' Complement
+
+    0000 0110    6
+-   0001 0011   19
+=============   == 
+  1 1111 0011  -13
+
+
+
+
+
+
+
+
+
+
+ ## Twos Complement
+
+`Twos Complement`:
