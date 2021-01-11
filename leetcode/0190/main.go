@@ -6,27 +6,19 @@ import (
 
 func main() {
 
-	var n uint32
+	var input, expect uint32
 
-	// n = 00000010100101000001111010011100
+	input = 43261596
+	expect = 964176192
 
-	n = 43261596
+	r := reverseBits(input)
 
-	// n = 7 // 111
-
-	r := reverseBits(n)
-
-	fmt.Printf("Did the result [%v] match the expectation? [%v]\n", r, n == r)
+	fmt.Printf("Did the result [%v] match the expectation? [%v]\n", r, expect == r)
 }
 
 func reverseBits(num uint32) uint32 {
 
-	fmt.Printf("%032b\n", num) // of course, makes more sense now. uint32 stores it in decimal, needs to be converted into binary string!
-
-	return 0
-}
-
-func reverseBitsAnswerProvided(num uint32) uint32 {
+	// fmt.Printf("%032b\n", num)
 
 	var rev uint32
 
@@ -39,15 +31,4 @@ func reverseBitsAnswerProvided(num uint32) uint32 {
 	return rev
 }
 
-// s := strconv.FormatUint(uint64(num), 2)
-
-// // convert
-// bits := strconv.FormatUint(uint64(num), 2)
-
-// fmt.Println(bits)
-
-/*
-	var bit byte = 0x0F
-	fmt.Printf("%08b\n", bit)
-	fmt.Printf("%08b\n", ^bit)
-*/
+// REVISIT this one with Prakriti!
