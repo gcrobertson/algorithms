@@ -13,6 +13,7 @@
 |  56       | Merge Intervals                            | Yes        | https://leetcode.com/problems/merge-intervals/                              |                        |
 |  57       | Insert Interval                            | No         | https://leetcode.com/problems/insert-interval/                              |                        |
 |  68       | Text Justification                         | No         | https://leetcode.com/problems/text-justification/                           |                        |
+|  70       | Climbing Stairs                            | Yes        | https://leetcode.com/problems/climbing-stairs/                              | Dynamic, Fibonacci     |
 |  72       | Edit Distance                              | Yes        | https://leetcode.com/problems/edit-distance/                                |                        |
 |  76       | Minimum Window Substring                   | No         | https://leetcode.com/problems/minimum-window-substring/                     |                        |
 |  84       | Largest Rectangle in Histogram             | Yes        | https://leetcode.com/problems/largest-rectangle-in-histogram/               |                        |
