@@ -8,8 +8,8 @@
 |  17       | Letter Combinations of a Phone Number      | No         | https://leetcode.com/problems/letter-combinations-of-a-phone-number/        |                        |
 |  21       | Merge Two Sorted Lists                     | Yes        | https://leetcode.com/problems/merge-two-sorted-lists/                       |                        |
 |  26       | Remove Duplicates from Sorted Array        | Yes        | https://leetcode.com/problems/remove-duplicates-from-sorted-array/          |                        |
-|  33       | Search in Rotated Sorted Array             | Yes        | https://leetcode.com/problems/search-in-rotated-sorted-array/               |                        |
-|  53       | Maximum Subarray                           | Yes        | https://leetcode.com/problems/maximum-subarray/                             |                        |
+|  33       | Search in Rotated Sorted Array             | Yes        | https://leetcode.com/problems/search-in-rotated-sorted-array/               | Array                  |
+|  53       | Maximum Subarray                           | Yes        | https://leetcode.com/problems/maximum-subarray/                             | Array                  |
 |  56       | Merge Intervals                            | Yes        | https://leetcode.com/problems/merge-intervals/                              |                        |
 |  57       | Insert Interval                            | No         | https://leetcode.com/problems/insert-interval/                              |                        |
 |  68       | Text Justification                         | No         | https://leetcode.com/problems/text-justification/                           |                        |
@@ -22,27 +22,28 @@
 | 104       | Maximum Depth of Binary Tree               | Yes        | https://leetcode.com/problems/maximum-depth-of-binary-tree/                 |                        |
 | 108       | Convert Sorted Array to Binary Search Tree | Yes        | https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/   |                        |
 | 121       | Best Time to Buy and Sell Stock            | Yes        | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/              |                        |
-| 133       | Clone Graph                                | Yes        | https://leetcode.com/problems/clone-graph/                                  |                        |
+| 133       | Clone Graph                                | Yes        | https://leetcode.com/problems/clone-graph/                                  | Graph                  |
 | 143       | Reorder List                               | Yes        | https://leetcode.com/problems/reorder-list/                                 |                        |
-| 152       | Maximum Product Subarray                   | Yes        | https://leetcode.com/problems/maximum-product-subarray/                     |                        |
-| 153       | Find Minimum in Rotated Sorted Array       | Yes        | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/         |                        |
+| 152       | Maximum Product Subarray                   | Yes        | https://leetcode.com/problems/maximum-product-subarray/                     | Array                  |
+| 153       | Find Minimum in Rotated Sorted Array       | Yes        | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/         | Array                  |
 | 155       | Min Stack                                  | Yes        | https://leetcode.com/problems/min-stack/                                    |                        |
 | 167       | Two Sum II - Input array is sorted         | Yes        | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/             |                        |
 | 189       | Rotate Array                               | Yes        | https://leetcode.com/problems/rotate-array/                                 |                        |
 | 190       | Reverse Bits                               | No         | https://leetcode.com/problems/reverse-bits/                                 | Bitwise                |
 | 191       | Number of 1 Bits                           | Yes        | https://leetcode.com/problems/number-of-1-bits/                             | Bitwise, Masking       |
-| 198       | House Robber                               | Yes        | https://leetcode.com/problems/house-robber/                                 |                        |
-| 200       | Number of Islands                          | Yes        | https://leetcode.com/problems/number-of-islands/                            |                        |
-| 207       | Course Schedule                            | Yes        | https://leetcode.com/problems/course-schedule/                              |                        |
-| 213       | House Robber II                            | Yes        | https://leetcode.com/problems/house-robber-ii/                              |                        |
-| 217       | Contains Duplicate                         | Yes        | https://leetcode.com/problems/contains-duplicate/                           |                        |
+| 198       | House Robber                               | Yes        | https://leetcode.com/problems/house-robber/                                 | Dynamic                |
+| 200       | Number of Islands                          | Yes        | https://leetcode.com/problems/number-of-islands/                            | Graph                  |
+| 207       | Course Schedule                            | Yes        | https://leetcode.com/problems/course-schedule/                              | Graph                  |
+| 213       | House Robber II                            | Yes        | https://leetcode.com/problems/house-robber-ii/                              | Dynamic                |
+| 217       | Contains Duplicate                         | Yes        | https://leetcode.com/problems/contains-duplicate/                           | Array                  |
 | 236       | Lowest Common Ancestor of a Binary Tree    | Yes        | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/      |                        |
-| 238       | Product of Array Except Self               | Yes        | https://leetcode.com/problems/product-of-array-except-self/                 |                        |
+| 238       | Product of Array Except Self               | Yes        | https://leetcode.com/problems/product-of-array-except-self/                 | Array                  |
 | 268       | Missing Number                             | Yes        | https://leetcode.com/problems/missing-number/                               | XOR, Gauss' Formula    |
-| 269       | Alien Dictionary                           | Yes        | https://leetcode.com/problems/alien-dictionary/                             |                        |
+| 269       | Alien Dictionary                           | Yes        | https://leetcode.com/problems/alien-dictionary/                             | Graph                  |
 | 289       | Game of Life                               | Yes        | https://leetcode.com/problems/game-of-life/                                 |                        |
 | 299       | Bulls and Cows                             | Yes        | https://leetcode.com/problems/bulls-and-cows/                               |                        |
 | 315       | Count of Smaller Numbers after Self        | Yes        | https://leetcode.com/problems/count-of-smaller-numbers-after-self/          |                        |
+| 322       | Coin Change                                | No         | https://leetcode.com/problems/coin-change/                                  |Dynamic                 |
 | 328       | Odd Even Linked List                       | Yes        | https://leetcode.com/problems/odd-even-linked-list/                         |                        |
 | 337       | House Robber III                           | No         | https://leetcode.com/problems/house-robber-iii/                             |                        |
 | 338       | Counting Bits                              | Yes        | https://leetcode.com/problems/counting-bits/                                | Bitwise Operators      |
