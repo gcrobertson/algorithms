@@ -28,6 +28,7 @@
 | 153       | Find Minimum in Rotated Sorted Array       | Yes        | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/         | Array                  |
 | 155       | Min Stack                                  | Yes        | https://leetcode.com/problems/min-stack/                                    |                        |
 | 167       | Two Sum II - Input array is sorted         | Yes        | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/             |                        |
+| 171       | Excel Sheet Column Number                  | Yes        | https://leetcode.com/problems/excel-sheet-column-number/                    |                        |
 | 189       | Rotate Array                               | Yes        | https://leetcode.com/problems/rotate-array/                                 |                        |
 | 190       | Reverse Bits                               | No         | https://leetcode.com/problems/reverse-bits/                                 | Bitwise                |
 | 191       | Number of 1 Bits                           | Yes        | https://leetcode.com/problems/number-of-1-bits/                             | Bitwise, Masking       |
@@ -60,6 +61,7 @@
 | 547       | Friend Circles                             | Yes        | https://leetcode.com/problems/friend-circles/                               |                        |
 | 684       | Redundant Connections                      | Yes        | https://leetcode.com/problems/redundant-connection/                         |                        |
 | 695       | Max Area of Island                         | Yes        | https://leetcode.com/problems/max-area-of-island/                           |                        |
+| 706       | Design HashMap                             | Yes        | https://leetcode.com/problems/design-hashmap/                               | Solution found, revisit|
 | 710       | Random Pick with Blacklist                 | No         | https://leetcode.com/problems/random-pick-with-blacklist/                   |                        |
 | 733       | Flood Fill                                 | Yes        | https://leetcode.com/problems/flood-fill/                                   |                        |
 | 763       | Partition Labels                           | Yes        | https://leetcode.com/problems/partition-labels/                             |                        |
@@ -67,6 +69,7 @@
 | 785       | Is Graph Bipartite?                        | Yes        | https://leetcode.com/problems/is-graph-bipartite/                           |                        |
 | 881       | Boats to Save People                       | Yes        | https://leetcode.com/problems/boats-to-save-people/                         |                        |
 |1041       | Robot Bounded In Circle                    | Yes        | https://leetcode.com/problems/robot-bounded-in-circle/                      |                        |
+|1119       | Remove Vowels from a String                | Yes        | https://leetcode.com/problems/remove-vowels-from-a-string/                  | Hashmap, Stringbuilder |
 |1232       | Check If It Is a Straight Line             | Yes        | https://leetcode.com/problems/check-if-it-is-a-straight-line/               |                        |
 |1480       | Running Sum of 1d Array                    | Yes        | https://leetcode.com/problems/running-sum-of-1d-array/                      |                        |
 |1486       | XOR Operation in an Array                  | No         | https://leetcode.com/problems/xor-operation-in-an-array/                    |                        |
