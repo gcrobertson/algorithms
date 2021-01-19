@@ -52,6 +52,7 @@
 | 342       | Power of Four                              | Yes        | https://leetcode.com/problems/power-of-four/                                |                                                |
 | 371       | Sum of Two Integers                        | Yes        | https://leetcode.com/problems/sum-of-two-integers/                          | Bitwise Operators                              |
 | 380       | Insert Delete GetRandom O(1)               | Yes        | https://leetcode.com/problems/insert-delete-getrandom-o1/                   |                                                |
+| 387       | First Unique Character in a String         | Yes        | https://leetcode.com/problems/first-unique-character-in-a-string/           | Hash implementation as slice                   |
 | 393       | UTF-8 Validation                           | Yes        | https://leetcode.com/problems/utf-8-validation/                             |                                                |
 | 398       | Random Pick Index                          | Yes        | https://leetcode.com/problems/random-pick-index/                            |                                                |
 | 399       | Evaluate Division                          | No         | https://leetcode.com/problems/evaluate-division/                            |                                                |
@@ -74,5 +75,3 @@
 |1232       | Check If It Is a Straight Line             | Yes        | https://leetcode.com/problems/check-if-it-is-a-straight-line/               |                                                |
 |1480       | Running Sum of 1d Array                    | Yes        | https://leetcode.com/problems/running-sum-of-1d-array/                      |                                                |
 |1486       | XOR Operation in an Array                  | No         | https://leetcode.com/problems/xor-operation-in-an-array/                    |                                                |
-
-
