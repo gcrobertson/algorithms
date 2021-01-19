@@ -34,6 +34,7 @@
 | 191       | Number of 1 Bits                           | Yes        | https://leetcode.com/problems/number-of-1-bits/                             | Bitwise, Masking                               |
 | 198       | House Robber                               | Yes        | https://leetcode.com/problems/house-robber/                                 | Dynamic                                        |
 | 200       | Number of Islands                          | Yes        | https://leetcode.com/problems/number-of-islands/                            | Graph                                          |
+| 203       | Remove Linked List Elements                | Yes        | https://leetcode.com/problems/remove-linked-list-elements/                  | Linked List, Dummy Head                        |
 | 207       | Course Schedule                            | Yes        | https://leetcode.com/problems/course-schedule/                              | Graph                                          |
 | 213       | House Robber II                            | Yes        | https://leetcode.com/problems/house-robber-ii/                              | Dynamic                                        |
 | 217       | Contains Duplicate                         | Yes        | https://leetcode.com/problems/contains-duplicate/                           | Array                                          |
@@ -73,3 +74,5 @@
 |1232       | Check If It Is a Straight Line             | Yes        | https://leetcode.com/problems/check-if-it-is-a-straight-line/               |                                                |
 |1480       | Running Sum of 1d Array                    | Yes        | https://leetcode.com/problems/running-sum-of-1d-array/                      |                                                |
 |1486       | XOR Operation in an Array                  | No         | https://leetcode.com/problems/xor-operation-in-an-array/                    |                                                |
+
+
