@@ -58,6 +58,7 @@
 | 399       | Evaluate Division                          | No         | https://leetcode.com/problems/evaluate-division/                            |                                                |
 | 443       | String Compression                         | Yes        | https://leetcode.com/problems/string-compression/                           |                                                |
 | 504       | Base 7                                     | Yes        | https://leetcode.com/problems/base-7/                                       |                                                |
+| 509       | Fibonacci Number                           | Yes        | https://leetcode.com/problems/fibonacci-number/                             | math.Round(math.Pow(φ, n) / √5) ≈ O(1)         |
 | 528       | Random Pick With Weight                    | Yes        | https://leetcode.com/problems/random-pick-with-weight/                      |                                                |
 | 539       | Minimum Time Difference                    | No         | https://leetcode.com/problems/minimum-time-difference/                      |                                                |
 | 547       | Friend Circles                             | Yes        | https://leetcode.com/problems/friend-circles/                               |                                                |
