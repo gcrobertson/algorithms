@@ -43,6 +43,7 @@
 | 238       | Product of Array Except Self               | Yes        | https://leetcode.com/problems/product-of-array-except-self/                 | Array                                          |
 | 268       | Missing Number                             | Yes        | https://leetcode.com/problems/missing-number/                               | XOR, Gauss' Formula                            |
 | 269       | Alien Dictionary                           | Yes        | https://leetcode.com/problems/alien-dictionary/                             | Graph                                          |
+| 283       | Move Zeroes                                | Yes        | https://leetcode.com/problems/move-zeroes/                                  | Array, 2 Pointers, In-place                    |
 | 289       | Game of Life                               | Yes        | https://leetcode.com/problems/game-of-life/                                 |                                                |
 | 299       | Bulls and Cows                             | Yes        | https://leetcode.com/problems/bulls-and-cows/                               |                                                |
 | 315       | Count of Smaller Numbers after Self        | Yes        | https://leetcode.com/problems/count-of-smaller-numbers-after-self/          |                                                |
