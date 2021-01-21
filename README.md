@@ -28,6 +28,7 @@
 | 153       | Find Minimum in Rotated Sorted Array       | Yes        | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/         | Array                                          |
 | 155       | Min Stack                                  | Yes        | https://leetcode.com/problems/min-stack/                                    |                                                |
 | 167       | Two Sum II - Input array is sorted         | Yes        | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/             |                                                |
+| 169       | Majority Element                           | Yes        | https://leetcode.com/problems/majority-element/                             | Boyer-Moore Voting Algorithm                   |
 | 171       | Excel Sheet Column Number                  | Yes        | https://leetcode.com/problems/excel-sheet-column-number/                    |                                                |
 | 189       | Rotate Array                               | Yes        | https://leetcode.com/problems/rotate-array/                                 |                                                |
 | 190       | Reverse Bits                               | No         | https://leetcode.com/problems/reverse-bits/                                 | Bitwise                                        |
