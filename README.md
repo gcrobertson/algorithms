@@ -39,6 +39,7 @@
 | 207       | Course Schedule                            | Yes        | https://leetcode.com/problems/course-schedule/                              | Graph                                          |
 | 213       | House Robber II                            | Yes        | https://leetcode.com/problems/house-robber-ii/                              | Dynamic                                        |
 | 217       | Contains Duplicate                         | Yes        | https://leetcode.com/problems/contains-duplicate/                           | Array                                          |
+| 226       | Invert Binary Tree                         | Yes        | https://leetcode.com/problems/invert-binary-tree/                           | Binary Tree, BFS, DFS, recursion               |
 | 236       | Lowest Common Ancestor of a Binary Tree    | Yes        | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/      |                                                |
 | 238       | Product of Array Except Self               | Yes        | https://leetcode.com/problems/product-of-array-except-self/                 | Array                                          |
 | 268       | Missing Number                             | Yes        | https://leetcode.com/problems/missing-number/                               | XOR, Gauss' Formula                            |
