@@ -74,7 +74,7 @@
 | 763       | Partition Labels                           | Yes        | https://leetcode.com/problems/partition-labels/                             |                                                |
 | 784       | Letter Case Permutation                    | No         | https://leetcode.com/problems/letter-case-permutation/                      |                                                |
 | 785       | Is Graph Bipartite?                        | Yes        | https://leetcode.com/problems/is-graph-bipartite/                           |                                                |
-| 868       | Binary Gap                                 | No         | https://leetcode.com/problems/binary-gap/                                   |                                                |
+| 868       | Binary Gap                                 | Yes        | https://leetcode.com/problems/binary-gap/                                   | Bitwise Operators                              |
 | 881       | Boats to Save People                       | Yes        | https://leetcode.com/problems/boats-to-save-people/                         |                                                |
 |1041       | Robot Bounded In Circle                    | Yes        | https://leetcode.com/problems/robot-bounded-in-circle/                      |                                                |
 |1119       | Remove Vowels from a String                | Yes        | https://leetcode.com/problems/remove-vowels-from-a-string/                  | Hashmap, Stringbuilder                         |
