@@ -66,6 +66,7 @@
 | 528       | Random Pick With Weight                    | Yes        | https://leetcode.com/problems/random-pick-with-weight/                      |                                                |
 | 539       | Minimum Time Difference                    | No         | https://leetcode.com/problems/minimum-time-difference/                      |                                                |
 | 547       | Friend Circles                             | Yes        | https://leetcode.com/problems/friend-circles/                               |                                                |
+| 682       | Baseball Game                              | Yes        | https://leetcode.com/problems/baseball-game/                                | Array, Switch statement                        |
 | 684       | Redundant Connections                      | Yes        | https://leetcode.com/problems/redundant-connection/                         |                                                |
 | 695       | Max Area of Island                         | Yes        | https://leetcode.com/problems/max-area-of-island/                           |                                                |
 | 706       | Design HashMap                             | Yes        | https://leetcode.com/problems/design-hashmap/                               | Solution found, revisit                        |
