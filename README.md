@@ -1,6 +1,7 @@
 |Problem #  | Title                                      | Submitted  | Link                                                                        | Tags                                           |
 | --------- | ------------------------------------------ | ---------- | ----------------------------------------------------------------------------|------------------------------------------------|
 |   1       | Two Sum                                    | Yes        | https://leetcode.com/problems/two-sum/                                      | Array, 2 Pointer                               |
+|   7       | Reverse Integer                            | Yes        | https://leetcode.com/problems/reverse-integer/                              | Modulus, Atoi, Itoa, strings.Builder           |
 |   8       | String to Integer (atoi)                   | Yes        | https://leetcode.com/problems/string-to-integer-atoi/                       |                                                |
 |  11       | Container with Most Water                  | Yes        | https://leetcode.com/problems/container-with-most-water/                    |                                                |
 |  14       | Longest Common Prefix                      | Yes        | https://leetcode.com/problems/longest-common-prefix/                        | Array, Trie                                    |
