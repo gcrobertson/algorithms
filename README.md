@@ -25,6 +25,7 @@
 | 121       | Best Time to Buy and Sell Stock            | Yes        | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/              |                                                |
 | 133       | Clone Graph                                | Yes        | https://leetcode.com/problems/clone-graph/                                  | Graph                                          |
 | 143       | Reorder List                               | Yes        | https://leetcode.com/problems/reorder-list/                                 |                                                |
+| 144       | Binary Tree Preorder Traversal             | Yes        | https://leetcode.com/problems/binary-tree-preorder-traversal/               | Tree, PreOrder, Stack, BFS, DFS                |
 | 152       | Maximum Product Subarray                   | Yes        | https://leetcode.com/problems/maximum-product-subarray/                     | Array                                          |
 | 153       | Find Minimum in Rotated Sorted Array       | Yes        | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/         | Array                                          |
 | 155       | Min Stack                                  | Yes        | https://leetcode.com/problems/min-stack/                                    |                                                |
