@@ -75,6 +75,7 @@ func numRookCaptures(board [][]byte) int {
 
 	var rooky int
 	var rookx int
+	var result int
 
 	// O(n*m)
 	for y := 0; y < len(board); y++ {
@@ -88,47 +89,47 @@ func numRookCaptures(board [][]byte) int {
 
 	// check vertically up
 	// O(n)
-	var v1 int
-	for y := 0; y < rooky; y++ {
+	for y := rooky; y > -1; y-- {
 		if board[y][rookx] == 'B' {
-			v1 = 0
-		} else if board[y][rookx] == 'p' && v1 == 0 {
-			v1++
+			break
+		} else if board[y][rookx] == 'p' {
+			result++
+			break
 		}
 	}
 
 	// check vertically down
 	// O(n)
-	var v2 int
-	for y := len(board[0]) - 1; y > rooky; y-- {
+	for y := rooky; y < len(board[0]); y++ {
 		if board[y][rookx] == 'B' {
-			v2 = 0
-		} else if board[y][rookx] == 'p' && v2 == 0 {
-			v2++
+			break
+		} else if board[y][rookx] == 'p' {
+			result++
+			break
 		}
 	}
 
 	// check horizontally left
 	// O(m)
-	var h1 int
-	for x := 0; x < rookx; x++ {
+	for x := rookx; x > -1; x-- {
 		if board[rooky][x] == 'B' {
-			h1 = 0
-		} else if board[rooky][x] == 'p' && h1 == 0 {
-			h1++
+			break
+		} else if board[rooky][x] == 'p' {
+			result++
+			break
 		}
 	}
 
 	// check horizontally right
 	// O(m)
-	var h2 int
-	for x := len(board) - 1; x > rookx; x-- {
+	for x := rookx; x < len(board); x++ {
 		if board[rooky][x] == 'B' {
-			h2 = 0
-		} else if board[rooky][x] == 'p' && h2 == 0 {
-			h2++
+			break
+		} else if board[rooky][x] == 'p' {
+			result++
+			break
 		}
 	}
 
-	return v1 + v2 + h1 + h2
+	return result
 }
