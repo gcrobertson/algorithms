@@ -79,6 +79,7 @@
 | 785       | Is Graph Bipartite?                        | Yes        | https://leetcode.com/problems/is-graph-bipartite/                           |                                                |
 | 868       | Binary Gap                                 | Yes        | https://leetcode.com/problems/binary-gap/                                   | Bitwise Operators                              |
 | 881       | Boats to Save People                       | Yes        | https://leetcode.com/problems/boats-to-save-people/                         |                                                |
+| 999       | Available Captures for Rook                | Yes        | https://leetcode.com/problems/available-captures-for-rook/                  | Matrix, Iteration                              |
 |1041       | Robot Bounded In Circle                    | Yes        | https://leetcode.com/problems/robot-bounded-in-circle/                      |                                                |
 |1119       | Remove Vowels from a String                | Yes        | https://leetcode.com/problems/remove-vowels-from-a-string/                  | Hashmap, Stringbuilder                         |
 |1232       | Check If It Is a Straight Line             | Yes        | https://leetcode.com/problems/check-if-it-is-a-straight-line/               |                                                |

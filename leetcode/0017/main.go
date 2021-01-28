@@ -1,16 +1,14 @@
 package main
 
-import "fmt"
-
 var digitMap = map[int][]string{
-	2: []string{"abc"},
-	3: []string{"def"},
-	4: []string{"ghi"},
-	5: []string{"jkl"},
-	6: []string{"mno"},
-	7: []string{"pqrs"},
-	8: []string{"tuv"},
-	9: []string{"wxyz"},
+	2: {"abc"},
+	3: {"def"},
+	4: {"ghi"},
+	5: {"jkl"},
+	6: {"mno"},
+	7: {"pqrs"},
+	8: {"tuv"},
+	9: {"wxyz"},
 }
 
 // letter case permutation with:
@@ -21,10 +19,11 @@ var digitMap = map[int][]string{
 // dfs
 
 func main() {
-	r := letterCasePermutation("23")
-	fmt.Printf("result: %v\n", r)
+	// r := letterCasePermutation("23")
+	// fmt.Printf("result: %v\n", r)
 }
 
+/*
 func letterCasePermutation(digits string) []string {
 	result := []string{}
 
@@ -34,7 +33,7 @@ func letterCasePermutation(digits string) []string {
 
 	recursiveLCP()
 }
-
+*/
 // result = populates result
 // digits
 // string current combination we are dealing with [?]

@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"unicode"
-)
-
+/*
 func main() {
 
 	input := "a1b2"
@@ -44,7 +40,7 @@ func lettercasePermutation(input string) []string {
 			fmt.Printf("the key %v is definitely lowercase: %v\n", i, input[i])
 
 			s := input
-			s[characters[i]] = 
+			s[characters[i]] =
 
 		}
 
@@ -55,6 +51,6 @@ func lettercasePermutation(input string) []string {
 
 	return result
 }
-
+*/
 // fmt.Printf("i know the characters in the passed string are here: %+v\n", characters)
 // fmt.Println(string(input[1]))

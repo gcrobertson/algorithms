@@ -40,20 +40,6 @@ func main() {
 // equation[0][0] = `k` * equation[0][1]
 // equation[1][0] = `k` * equation[1][1]
 
-func calcEquation(equations [][]string, values []float64, queries [][]string) []float64 {
+// func calcEquation(equations [][]string, values []float64, queries [][]string) []float64 {
 
-}
-
-
-sonji.mackey@okta.com 
-sonji mackey 
-linkedin.com/in/sonji/
-
-1. 1 hour technical screen interview
-
-2. virtual on-site with 4 or 5 people
-
-software engineer 
-senior 
-staff 		7+ years
-principal 	15+ years
+// }
