@@ -70,15 +70,15 @@ func ex3() {
 }
 
 // Runtime: 0 ms, faster than 100.00% of Go online submissions for Available Captures for Rook.
-// Memory Usage: 2 MB, less than 8.70% of Go online submissions for Available Captures for Rook.
+// Memory Usage: 1.9 MB, less than 8.70% of Go online submissions for Available Captures for Rook.
 func numRookCaptures(board [][]byte) int {
 
 	var rooky int
 	var rookx int
 
+	// O(n*m)
 	for y := 0; y < len(board); y++ {
 		for x := 0; x < len(board[0]); x++ {
-
 			if board[y][x] == 'R' {
 				rooky = y
 				rookx = x
@@ -87,45 +87,45 @@ func numRookCaptures(board [][]byte) int {
 	}
 
 	// check vertically up
+	// O(n)
 	var v1 int
 	for y := 0; y < rooky; y++ {
 		if board[y][rookx] == 'B' {
 			v1 = 0
-		}
-		if board[y][rookx] == 'p' && v1 == 0 {
+		} else if board[y][rookx] == 'p' && v1 == 0 {
 			v1++
 		}
 	}
 
 	// check vertically down
+	// O(n)
 	var v2 int
 	for y := len(board[0]) - 1; y > rooky; y-- {
 		if board[y][rookx] == 'B' {
 			v2 = 0
-		}
-		if board[y][rookx] == 'p' && v2 == 0 {
+		} else if board[y][rookx] == 'p' && v2 == 0 {
 			v2++
 		}
 	}
 
 	// check horizontally left
+	// O(m)
 	var h1 int
 	for x := 0; x < rookx; x++ {
 		if board[rooky][x] == 'B' {
 			h1 = 0
-		}
-		if board[rooky][x] == 'p' && h1 == 0 {
+		} else if board[rooky][x] == 'p' && h1 == 0 {
 			h1++
 		}
 	}
 
 	// check horizontally right
+	// O(m)
 	var h2 int
 	for x := len(board) - 1; x > rookx; x-- {
 		if board[rooky][x] == 'B' {
 			h2 = 0
-		}
-		if board[rooky][x] == 'p' && h2 == 0 {
+		} else if board[rooky][x] == 'p' && h2 == 0 {
 			h2++
 		}
 	}
