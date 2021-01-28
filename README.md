@@ -83,6 +83,6 @@
 |1041       | Robot Bounded In Circle                    | Yes        | https://leetcode.com/problems/robot-bounded-in-circle/                      |                                                |
 |1119       | Remove Vowels from a String                | Yes        | https://leetcode.com/problems/remove-vowels-from-a-string/                  | Hashmap, Stringbuilder                         |
 |1232       | Check If It Is a Straight Line             | Yes        | https://leetcode.com/problems/check-if-it-is-a-straight-line/               |                                                |
-|1424       | Diagonal Traverse II                       | No         | https://leetcode.com/problems/diagonal-traverse-ii/                         |                                                |
+|1424       | Diagonal Traverse II                       | Yes        | https://leetcode.com/problems/diagonal-traverse-ii/                         | Bucket sorting, Matrix                         |
 |1480       | Running Sum of 1d Array                    | Yes        | https://leetcode.com/problems/running-sum-of-1d-array/                      |                                                |
 |1486       | XOR Operation in an Array                  | No         | https://leetcode.com/problems/xor-operation-in-an-array/                    |                                                |

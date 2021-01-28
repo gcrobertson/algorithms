@@ -67,7 +67,7 @@ func ex4() {
 func ex5() {
 	input := [][]int{
 		{14, 12, 19, 16, 9},
-		{13, 114, 15, 8, 11}, // @TODO: It is not finding the 11 because the final loop uses the length of the last row
+		{13, 14, 15, 8, 11},
 		{11, 13, 1},
 	}
 	expect := []int{14, 13, 12, 11, 14, 19, 13, 15, 16, 1, 8, 9, 11}
@@ -75,16 +75,14 @@ func ex5() {
 	fmt.Printf("result [%v] matches expectation? [%v]\n", result, reflect.DeepEqual(result, expect))
 }
 
-/*
- *
- *
- *
- */
-func findDiagonalOrder(nums [][]int) []int {
+// This works but time limited exceeded. Need an alternative pattern ...
+func findDiagonalOrderTimeLimitExceeded(nums [][]int) []int {
 	var result []int
 	if len(nums) == 0 {
 		return result
 	}
+
+	var maxrow int // necessary to store max row length so that ex5() can be solved ...
 
 	for y := 0; y < len(nums); y++ {
 		result = append(result, nums[y][0])
@@ -104,11 +102,15 @@ func findDiagonalOrder(nums [][]int) []int {
 			y1--
 		}
 
+		if len(nums[y]) > maxrow {
+			maxrow = len(nums[y])
+		}
+
 		if y == len(nums)-1 {
 			y2 := y
 			x2 := 1
 			// loop needs to be based horizontally this time with the vertical one in it...! confusing.
-			for x2 < len(nums[y]) {
+			for x2 < maxrow {
 				y2 = y
 				x3 := x2
 				for y2 > -1 {
@@ -124,6 +126,44 @@ func findDiagonalOrder(nums [][]int) []int {
 				}
 				x2++
 			}
+		}
+
+	}
+
+	return result
+}
+
+// Runtime: 180 ms, faster than 94.12% of Go online submissions for Diagonal Traverse II.
+// Memory Usage: 22.3 MB, less than 20.59% of Go online submissions for Diagonal Traverse II.
+func findDiagonalOrder(nums [][]int) []int {
+
+	var result []int
+	if len(nums) == 0 {
+		return result
+
+	}
+	var maxKey int // maximum key inserted into the map, i.e.: max value of i+j indices
+
+	buckets := make(map[int][]int, len(nums))
+
+	// go through all cells in matrix, put values buckets. for example, bucket([y,x]) = {[2,0], [1,1], [0,2]}
+	// O(n*m)
+	for i := 0; i < len(nums); i++ {
+		for j := 0; j < len(nums[i]); j++ {
+			buckets[i+j] = append(buckets[i+j], nums[i][j])
+			if i+j > maxKey {
+				maxKey = i + j
+			}
+		}
+	}
+
+	//O((n+m-2) * ?) ? = max len of a bucket
+	for i := 0; i <= maxKey; i++ {
+
+		bucket := buckets[i]
+
+		for x := len(bucket) - 1; x > -1; x-- {
+			result = append(result, bucket[x])
 		}
 	}
 
