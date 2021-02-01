@@ -8,6 +8,7 @@
 | 15        | 3Sum                                       | Yes       | https://leetcode.com/problems/3sum/                                       | Array, 2 Pointer, Hash                 |
 | 17        | Letter Combinations of a Phone Number      | No        | https://leetcode.com/problems/letter-combinations-of-a-phone-number/      |                                        |
 | 21        | Merge Two Sorted Lists                     | Yes       | https://leetcode.com/problems/merge-two-sorted-lists/                     |                                        |
+| 22        | Generate Parenthesis                       | No        | https://leetcode.com/problems/generate-parentheses/                       |                                        |
 | 26        | Remove Duplicates from Sorted Array        | Yes       | https://leetcode.com/problems/remove-duplicates-from-sorted-array/        |                                        |
 | 33        | Search in Rotated Sorted Array             | Yes       | https://leetcode.com/problems/search-in-rotated-sorted-array/             | Array                                  |
 | 53        | Maximum Subarray                           | Yes       | https://leetcode.com/problems/maximum-subarray/                           | Array                                  |
@@ -70,6 +71,7 @@
 | 528       | Random Pick With Weight                    | Yes       | https://leetcode.com/problems/random-pick-with-weight/                    |                                        |
 | 539       | Minimum Time Difference                    | No        | https://leetcode.com/problems/minimum-time-difference/                    |                                        |
 | 547       | Friend Circles                             | Yes       | https://leetcode.com/problems/friend-circles/                             |                                        |
+| 572       | Subtree of Another Tree                    | No        | https://leetcode.com/problems/subtree-of-another-tree/                    | Tree, BFS, Preorder, Recursion         |
 | 682       | Baseball Game                              | Yes       | https://leetcode.com/problems/baseball-game/                              | Array, Switch statement                |
 | 684       | Redundant Connections                      | Yes       | https://leetcode.com/problems/redundant-connection/                       |                                        |
 | 695       | Max Area of Island                         | Yes       | https://leetcode.com/problems/max-area-of-island/                         |                                        |
