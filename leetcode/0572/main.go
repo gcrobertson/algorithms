@@ -6,7 +6,7 @@ import (
 
 func main() {
 	ex1()
-	ex2()
+	// ex2()
 }
 
 func ex1() {
@@ -22,9 +22,11 @@ func ex1() {
 	subtree.Right = &TreeNode{Val: 2}
 
 	expect := true
-	result := isSubtree(subtree, tree)
 
-	fmt.Printf("Is the result [%v] expected? [%v]\n", result, result == expect)
+	// For some strange reason, it works when the subtree & tree are inverted ... WHY?
+	result := isSubtree(tree, subtree)
+
+	fmt.Printf("Is the result [%v] correct? [%v]\n", result, result == expect)
 }
 
 func ex2() {
@@ -54,25 +56,33 @@ type TreeNode struct {
 }
 
 func isSubtree(s *TreeNode, t *TreeNode) bool {
-	if s == nil {
-		return false
+
+	if s == nil || t == nil {
+		return s == t
 	}
-	if s.Val == t.Val && isSameTree(s, t) {
+
+	// fmt.Printf("s.Val: %v\tt.Val: %v\n", s.Val, t.Val)
+
+	if s.Val == t.Val && isIdentical(s, t) {
 		return true
-	} else if s == nil {
-		return false
 	}
+
+	/*
+	 *
+	 *
+	 *
+	 */
+	// fmt.Printf("s.Left: [%v]\t t: [%v]\n", s.Left, t)
+
 	return isSubtree(s.Left, t) || isSubtree(s.Right, t)
 }
 
-func isSameTree(a, b *TreeNode) bool {
-	if a == nil && b == nil {
-		return true
+// Remember, preorder = Root,Left,Right
+func isIdentical(s, t *TreeNode) bool {
+	if s == nil || t == nil {
+		return s == t
 	}
-	if a != nil && b != nil && a.Val == b.Val {
-		return isSameTree(a.Left, b.Left) && isSameTree(a.Right, b.Right)
-	}
-	return false
+	return s.Val == t.Val && isIdentical(s.Left, t.Left) && isIdentical(s.Right, t.Right)
 }
 
 /*
