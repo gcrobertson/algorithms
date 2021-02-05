@@ -76,9 +76,11 @@
 | 684       | Redundant Connections                      | Yes       | https://leetcode.com/problems/redundant-connection/                       |                                        |
 | 695       | Max Area of Island                         | Yes       | https://leetcode.com/problems/max-area-of-island/                         |                                        |
 | 706       | Design HashMap                             | Yes       | https://leetcode.com/problems/design-hashmap/                             | Solution found, revisit                |
+| 709       | To Lower Case                              | Yes       | https://leetcode.com/problems/to-lower-case/                              | Stringbuilder, Unicode                 |
 | 710       | Random Pick with Blacklist                 | No        | https://leetcode.com/problems/random-pick-with-blacklist/                 |                                        |
 | 733       | Flood Fill                                 | Yes       | https://leetcode.com/problems/flood-fill/                                 |                                        |
 | 763       | Partition Labels                           | Yes       | https://leetcode.com/problems/partition-labels/                           |                                        |
+| 771       | Jewels and Stones                          | Yes       | https://leetcode.com/problems/jewels-and-stones/                          | Hash map, Runes                        |
 | 784       | Letter Case Permutation                    | No        | https://leetcode.com/problems/letter-case-permutation/                    |                                        |
 | 785       | Is Graph Bipartite?                        | Yes       | https://leetcode.com/problems/is-graph-bipartite/                         |                                        |
 | 868       | Binary Gap                                 | Yes       | https://leetcode.com/problems/binary-gap/                                 | Bitwise Operators                      |
