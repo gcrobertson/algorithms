@@ -32,3 +32,21 @@ func distributeCandies(candies int, numberOfpeople int) []int {
 
 	return result
 }
+
+func distributeCandies2(candies int, numOfPeople int) []int {
+
+}
+
+/*
+func distributeCandies(candies int, num_people int) []int {
+	var res []int = make([]int,num_people,num_people)
+	var cnt int = 1
+	for candies > cnt{
+		res[(cnt - 1) % num_people] += cnt
+		candies -= cnt
+		cnt++
+	}
+	res[(cnt - 1) % num_people] += candies
+	return res
+}
+*/

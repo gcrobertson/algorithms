@@ -89,6 +89,7 @@
 | 999       | Available Captures for Rook                 | Yes       | https://leetcode.com/problems/available-captures-for-rook/                 | Matrix, Iteration                      |
 | 1041      | Robot Bounded In Circle                     | Yes       | https://leetcode.com/problems/robot-bounded-in-circle/                     |                                        |
 | 1103      | Distribute Candies to People                | Yes       | https://leetcode.com/problems/distribute-candies-to-people/                | Array, Loop                            |
+| 1108      | 1108. Defanging an IP Address               | Yes       | https://leetcode.com/problems/defanging-an-ip-address/                     | Array, Loop                            |
 | 1119      | Remove Vowels from a String                 | Yes       | https://leetcode.com/problems/remove-vowels-from-a-string/                 | Hashmap, Stringbuilder                 |
 | 1160      | Find Words That Can Be Formed by Characters | Yes       | https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/ | Array [26]int{} as Hashmap             |
 | 1232      | Check If It Is a Straight Line              | Yes       | https://leetcode.com/problems/check-if-it-is-a-straight-line/              |                                        |
