@@ -46,6 +46,7 @@
 | 236       | Lowest Common Ancestor of a Binary Tree     | Yes       | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/     |                                        |
 | 238       | Product of Array Except Self                | Yes       | https://leetcode.com/problems/product-of-array-except-self/                | Array                                  |
 | 246       | Strobogrammatic Number                      | Yes       | https://leetcode.com/problems/strobogrammatic-number/                      | 2 Pointers, Array                      |
+| 263       | Ugly Number                                 | Yes       | https://leetcode.com/problems/ugly-number/                                 | Array, Modulo, For loop                |
 | 268       | Missing Number                              | Yes       | https://leetcode.com/problems/missing-number/                              | XOR, Gauss' Formula                    |
 | 269       | Alien Dictionary                            | Yes       | https://leetcode.com/problems/alien-dictionary/                            | Graph                                  |
 | 283       | Move Zeroes                                 | Yes       | https://leetcode.com/problems/move-zeroes/                                 | Array, 2 Pointers, In-place            |
