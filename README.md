@@ -89,12 +89,13 @@
 | 881       | Boats to Save People                        | Yes       | https://leetcode.com/problems/boats-to-save-people/                        |                                         |
 | 999       | Available Captures for Rook                 | Yes       | https://leetcode.com/problems/available-captures-for-rook/                 | Matrix, Iteration                       |
 | 1041      | Robot Bounded In Circle                     | Yes       | https://leetcode.com/problems/robot-bounded-in-circle/                     |                                         |
+| 1046      | Last Stone Weight                           | Yes       | https://leetcode.com/problems/last-stone-weight/                           | container/heap, Array, sort.Ints()      |
 | 1103      | Distribute Candies to People                | Yes       | https://leetcode.com/problems/distribute-candies-to-people/                | Array, Loop                             |
 | 1108      | 1108. Defanging an IP Address               | Yes       | https://leetcode.com/problems/defanging-an-ip-address/                     | Array, Loop                             |
 | 1119      | Remove Vowels from a String                 | Yes       | https://leetcode.com/problems/remove-vowels-from-a-string/                 | Hashmap, Stringbuilder                  |
 | 1160      | Find Words That Can Be Formed by Characters | Yes       | https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/ | Array [26]int{} as Hashmap              |
 | 1232      | Check If It Is a Straight Line              | Yes       | https://leetcode.com/problems/check-if-it-is-a-straight-line/              |                                         |
-| 1394      | Find Lucky Integer in an Array              | Yes       | https://leetcode.com/problems/find-lucky-integer-in-an-array/              | Hashmap, Array, Sort.Intn() for O(logn) |
+| 1394      | Find Lucky Integer in an Array              | Yes       | https://leetcode.com/problems/find-lucky-integer-in-an-array/              | Hashmap, Array, Sort.Ints() for O(logn) |
 | 1424      | Diagonal Traverse II                        | Yes       | https://leetcode.com/problems/diagonal-traverse-ii/                        | Bucket sorting, Matrix                  |
 | 1480      | Running Sum of 1d Array                     | Yes       | https://leetcode.com/problems/running-sum-of-1d-array/                     |                                         |
 | 1486      | XOR Operation in an Array                   | No        | https://leetcode.com/problems/xor-operation-in-an-array/                   |                                         |
