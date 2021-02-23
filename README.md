@@ -99,3 +99,4 @@
 | 1424      | Diagonal Traverse II                        | Yes       | https://leetcode.com/problems/diagonal-traverse-ii/                        | Bucket sorting, Matrix                  |
 | 1480      | Running Sum of 1d Array                     | Yes       | https://leetcode.com/problems/running-sum-of-1d-array/                     |                                         |
 | 1486      | XOR Operation in an Array                   | No        | https://leetcode.com/problems/xor-operation-in-an-array/                   |                                         |
+| 1694      | Reformat Phone Number                       | Yes       | https://leetcode.com/problems/reformat-phone-number/                       | Array, strings.Replace, strings.Builder |
