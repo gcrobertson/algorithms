@@ -4,9 +4,11 @@
 | 7         | Reverse Integer                             | Yes       | https://leetcode.com/problems/reverse-integer/                             | Modulus, Atoi, Itoa, strings.Builder    |
 | 8         | String to Integer (atoi)                    | Yes       | https://leetcode.com/problems/string-to-integer-atoi/                      |                                         |
 | 11        | Container with Most Water                   | Yes       | https://leetcode.com/problems/container-with-most-water/                   |                                         |
+| 13        | Roman to Integer                            | Yes       | https://leetcode.com/problems/roman-to-integer/                            |                                         |
 | 14        | Longest Common Prefix                       | Yes       | https://leetcode.com/problems/longest-common-prefix/                       | Array, Trie                             |
 | 15        | 3Sum                                        | Yes       | https://leetcode.com/problems/3sum/                                        | Array, 2 Pointer, Hash                  |
 | 17        | Letter Combinations of a Phone Number       | No        | https://leetcode.com/problems/letter-combinations-of-a-phone-number/       |                                         |
+| 19        | Remove Nth Node from End of List            | Yes       | https://leetcode.com/problems/remove-nth-node-from-end-of-list/            | Linked List                             |
 | 21        | Merge Two Sorted Lists                      | Yes       | https://leetcode.com/problems/merge-two-sorted-lists/                      |                                         |
 | 22        | Generate Parenthesis                        | No        | https://leetcode.com/problems/generate-parentheses/                        |                                         |
 | 26        | Remove Duplicates from Sorted Array         | Yes       | https://leetcode.com/problems/remove-duplicates-from-sorted-array/         |                                         |
@@ -22,10 +24,12 @@
 | 84        | Largest Rectangle in Histogram              | Yes       | https://leetcode.com/problems/largest-rectangle-in-histogram/              |                                         |
 | 85        | Maximal Rectangle                           | No        | https://leetcode.com/problems/maximal-rectangle/                           |                                         |
 | 88        | Merge Sorted Array                          | Yes       | https://leetcode.com/problems/merge-sorted-array/                          |                                         |
+| 100       | Same Tree                                   | Yes       | https://leetcode.com/problems/same-tree/                                   |                                         |
 | 104       | Maximum Depth of Binary Tree                | Yes       | https://leetcode.com/problems/maximum-depth-of-binary-tree/                |                                         |
 | 108       | Convert Sorted Array to Binary Search Tree  | Yes       | https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/  |                                         |
 | 121       | Best Time to Buy and Sell Stock             | Yes       | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/             |                                         |
 | 133       | Clone Graph                                 | Yes       | https://leetcode.com/problems/clone-graph/                                 | Graph                                   |
+| 141       | Linked List Cycle                           | Yes       | https://leetcode.com/problems/linked-list-cycle/                           | Linked List, Hash Map                   |
 | 143       | Reorder List                                | Yes       | https://leetcode.com/problems/reorder-list/                                |                                         |
 | 144       | Binary Tree Preorder Traversal              | Yes       | https://leetcode.com/problems/binary-tree-preorder-traversal/              | Tree, PreOrder, Stack, BFS, DFS         |
 | 146       | LRU Cache                                   | No        | https://leetcode.com/problems/lru-cache/                                   |                                         |
@@ -102,5 +106,8 @@
 | 1424      | Diagonal Traverse II                        | Yes       | https://leetcode.com/problems/diagonal-traverse-ii/                        | Bucket sorting, Matrix                  |
 | 1480      | Running Sum of 1d Array                     | Yes       | https://leetcode.com/problems/running-sum-of-1d-array/                     |                                         |
 | 1486      | XOR Operation in an Array                   | No        | https://leetcode.com/problems/xor-operation-in-an-array/                   |                                         |
+| 1603      | Design Parking System                       | Yes       | https://leetcode.com/problems/design-parking-system/                       |                                         |
+| 1629      | Slowest Key                                 | Yes       | https://leetcode.com/problems/slowest-key/                                 |                                         |
 | 1636      | Sort Array by Increasing Frequency          | Yes       | https://leetcode.com/problems/sort-array-by-increasing-frequency/          |                                         |
 | 1694      | Reformat Phone Number                       | Yes       | https://leetcode.com/problems/reformat-phone-number/                       | Array, strings.Replace, strings.Builder |
+| 1710      | Maximum Units on a Truck                    | Yes       | https://leetcode.com/problems/maximum-units-on-a-truck/                    |                                         |

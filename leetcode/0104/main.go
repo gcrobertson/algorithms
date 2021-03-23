@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 
@@ -66,4 +69,26 @@ func maxDepth(root *TreeNode) int {
 			fmt.Printf("Inside for, nodeCount is %v and queue length should be 3 at some point: %v\n", nodeCount, len(queue))
 		}
 	}
+}
+
+/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func maxDepthR(root *TreeNode) int {
+
+	if root == nil {
+		return 0
+	}
+
+	return int(
+		math.Max(
+			float64(maxDepthR(root.Left)+1),
+			float64(maxDepthR(root.Right)+1),
+		),
+	)
 }
