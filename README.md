@@ -3,6 +3,7 @@
 | 1         | Two Sum                                     | Yes       | https://leetcode.com/problems/two-sum/                                     | Array, 2 Pointer                        |
 | 7         | Reverse Integer                             | Yes       | https://leetcode.com/problems/reverse-integer/                             | Modulus, Atoi, Itoa, strings.Builder    |
 | 8         | String to Integer (atoi)                    | Yes       | https://leetcode.com/problems/string-to-integer-atoi/                      |                                         |
+| 10        | Regular Expression Matching                 | No        | https://leetcode.com/problems/regular-expression-matching/                 |                                         |
 | 11        | Container with Most Water                   | Yes       | https://leetcode.com/problems/container-with-most-water/                   |                                         |
 | 13        | Roman to Integer                            | Yes       | https://leetcode.com/problems/roman-to-integer/                            |                                         |
 | 14        | Longest Common Prefix                       | Yes       | https://leetcode.com/problems/longest-common-prefix/                       | Array, Trie                             |
