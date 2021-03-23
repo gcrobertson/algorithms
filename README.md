@@ -11,6 +11,7 @@
 | 22        | Generate Parenthesis                        | No        | https://leetcode.com/problems/generate-parentheses/                        |                                         |
 | 26        | Remove Duplicates from Sorted Array         | Yes       | https://leetcode.com/problems/remove-duplicates-from-sorted-array/         |                                         |
 | 33        | Search in Rotated Sorted Array              | Yes       | https://leetcode.com/problems/search-in-rotated-sorted-array/              | Array                                   |
+| 39        | Combination Sum                             | No        | https://leetcode.com/problems/combination-sum/                             |                                         |
 | 53        | Maximum Subarray                            | Yes       | https://leetcode.com/problems/maximum-subarray/                            | Array                                   |
 | 56        | Merge Intervals                             | Yes       | https://leetcode.com/problems/merge-intervals/                             |                                         |
 | 57        | Insert Interval                             | No        | https://leetcode.com/problems/insert-interval/                             |                                         |
@@ -27,6 +28,7 @@
 | 133       | Clone Graph                                 | Yes       | https://leetcode.com/problems/clone-graph/                                 | Graph                                   |
 | 143       | Reorder List                                | Yes       | https://leetcode.com/problems/reorder-list/                                |                                         |
 | 144       | Binary Tree Preorder Traversal              | Yes       | https://leetcode.com/problems/binary-tree-preorder-traversal/              | Tree, PreOrder, Stack, BFS, DFS         |
+| 146       | LRU Cache                                   | No        | https://leetcode.com/problems/lru-cache/                                   |                                         |
 | 152       | Maximum Product Subarray                    | Yes       | https://leetcode.com/problems/maximum-product-subarray/                    | Array                                   |
 | 153       | Find Minimum in Rotated Sorted Array        | Yes       | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/        | Array                                   |
 | 155       | Min Stack                                   | Yes       | https://leetcode.com/problems/min-stack/                                   |                                         |
@@ -87,6 +89,7 @@
 | 785       | Is Graph Bipartite?                         | Yes       | https://leetcode.com/problems/is-graph-bipartite/                          |                                         |
 | 868       | Binary Gap                                  | Yes       | https://leetcode.com/problems/binary-gap/                                  | Bitwise Operators                       |
 | 881       | Boats to Save People                        | Yes       | https://leetcode.com/problems/boats-to-save-people/                        |                                         |
+| 937       | Reorder Data in Log Files                   | No        | https://leetcode.com/problems/reorder-data-in-log-files/                   |                                         |
 | 999       | Available Captures for Rook                 | Yes       | https://leetcode.com/problems/available-captures-for-rook/                 | Matrix, Iteration                       |
 | 1041      | Robot Bounded In Circle                     | Yes       | https://leetcode.com/problems/robot-bounded-in-circle/                     |                                         |
 | 1046      | Last Stone Weight                           | Yes       | https://leetcode.com/problems/last-stone-weight/                           | container/heap, Array, sort.Ints()      |
@@ -99,4 +102,5 @@
 | 1424      | Diagonal Traverse II                        | Yes       | https://leetcode.com/problems/diagonal-traverse-ii/                        | Bucket sorting, Matrix                  |
 | 1480      | Running Sum of 1d Array                     | Yes       | https://leetcode.com/problems/running-sum-of-1d-array/                     |                                         |
 | 1486      | XOR Operation in an Array                   | No        | https://leetcode.com/problems/xor-operation-in-an-array/                   |                                         |
+| 1636      | Sort Array by Increasing Frequency          | Yes       | https://leetcode.com/problems/sort-array-by-increasing-frequency/          |                                         |
 | 1694      | Reformat Phone Number                       | Yes       | https://leetcode.com/problems/reformat-phone-number/                       | Array, strings.Replace, strings.Builder |
