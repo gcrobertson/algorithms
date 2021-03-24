@@ -26,6 +26,7 @@
 | 85        | Maximal Rectangle                           | No        | https://leetcode.com/problems/maximal-rectangle/                           |                                         |
 | 88        | Merge Sorted Array                          | Yes       | https://leetcode.com/problems/merge-sorted-array/                          |                                         |
 | 100       | Same Tree                                   | Yes       | https://leetcode.com/problems/same-tree/                                   |                                         |
+| 102       | Binary Tree Level Order Traversal           | Yes       | https://leetcode.com/problems/binary-tree-level-order-traversal/           |                                         |
 | 104       | Maximum Depth of Binary Tree                | Yes       | https://leetcode.com/problems/maximum-depth-of-binary-tree/                |                                         |
 | 108       | Convert Sorted Array to Binary Search Tree  | Yes       | https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/  |                                         |
 | 121       | Best Time to Buy and Sell Stock             | Yes       | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/             |                                         |
@@ -80,7 +81,7 @@
 | 539       | Minimum Time Difference                     | No        | https://leetcode.com/problems/minimum-time-difference/                     |                                         |
 | 543       | Diameter of Binary Tree                     | No        | https://leetcode.com/problems/diameter-of-binary-tree/                     |                                         |
 | 547       | Friend Circles                              | Yes       | https://leetcode.com/problems/friend-circles/                              |                                         |
-| 572       | Subtree of Another Tree                     | No        | https://leetcode.com/problems/subtree-of-another-tree/                     | Tree, BFS, Preorder, Recursion          |
+| 572       | Subtree of Another Tree                     | Yes       | https://leetcode.com/problems/subtree-of-another-tree/                     | Tree, BFS, Preorder, Recursion          |
 | 682       | Baseball Game                               | Yes       | https://leetcode.com/problems/baseball-game/                               | Array, Switch statement                 |
 | 684       | Redundant Connections                       | Yes       | https://leetcode.com/problems/redundant-connection/                        |                                         |
 | 695       | Max Area of Island                          | Yes       | https://leetcode.com/problems/max-area-of-island/                          |                                         |
