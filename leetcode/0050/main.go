@@ -16,6 +16,10 @@ func ex2() {
 	fmt.Printf("Ex 2 is correct? %v\n", myPow(x, n) == e)
 }
 
+/*	Explanation: 
+ *
+ *	2⁻² = 1/2² = 1/4 = 0.25
+ */
 func ex3() {
 	x := 2.00000
 	n := -2
