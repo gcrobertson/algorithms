@@ -15,6 +15,7 @@
 | 26        | Remove Duplicates from Sorted Array         | Yes       | https://leetcode.com/problems/remove-duplicates-from-sorted-array/         |                                         |
 | 33        | Search in Rotated Sorted Array              | Yes       | https://leetcode.com/problems/search-in-rotated-sorted-array/              | Array                                   |
 | 39        | Combination Sum                             | No        | https://leetcode.com/problems/combination-sum/                             |                                         |
+| 50        | Pow(x,n)                                    | Yes       | https://leetcode.com/problems/powx-n/                                      | Recursion                               |
 | 53        | Maximum Subarray                            | Yes       | https://leetcode.com/problems/maximum-subarray/                            | Array                                   |
 | 56        | Merge Intervals                             | Yes       | https://leetcode.com/problems/merge-intervals/                             |                                         |
 | 57        | Insert Interval                             | No        | https://leetcode.com/problems/insert-interval/                             |                                         |
