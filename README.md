@@ -10,7 +10,7 @@
 | 15        | 3Sum                                        | Yes       | https://leetcode.com/problems/3sum/                                        | Array, 2 Pointer, Hash                  |
 | 17        | Letter Combinations of a Phone Number       | No        | https://leetcode.com/problems/letter-combinations-of-a-phone-number/       |                                         |
 | 19        | Remove Nth Node from End of List            | Yes       | https://leetcode.com/problems/remove-nth-node-from-end-of-list/            | Linked List                             |
-| 20        | Valid Parenthesis                           | Yes       | https://leetcode.com/problems/remove-nth-node-from-end-of-list/            | Stack using Linked List                 |
+| 20        | Valid Parentheses                           | Yes       | https://leetcode.com/problems/valid-parentheses/                           | Stack using Linked List                 |
 | 21        | Merge Two Sorted Lists                      | Yes       | https://leetcode.com/problems/merge-two-sorted-lists/                      |                                         |
 | 22        | Generate Parenthesis                        | No        | https://leetcode.com/problems/generate-parentheses/                        |                                         |
 | 26        | Remove Duplicates from Sorted Array         | Yes       | https://leetcode.com/problems/remove-duplicates-from-sorted-array/         |                                         |
@@ -110,6 +110,7 @@
 | 1424      | Diagonal Traverse II                        | Yes       | https://leetcode.com/problems/diagonal-traverse-ii/                        | Bucket sorting, Matrix                  |
 | 1480      | Running Sum of 1d Array                     | Yes       | https://leetcode.com/problems/running-sum-of-1d-array/                     |                                         |
 | 1486      | XOR Operation in an Array                   | No        | https://leetcode.com/problems/xor-operation-in-an-array/                   |                                         |
+| 1528      | Shuffle String                              | Yes       | https://leetcode.com/problems/shuffle-string/                              | Array                                   |
 | 1603      | Design Parking System                       | Yes       | https://leetcode.com/problems/design-parking-system/                       |                                         |
 | 1629      | Slowest Key                                 | Yes       | https://leetcode.com/problems/slowest-key/                                 |                                         |
 | 1636      | Sort Array by Increasing Frequency          | Yes       | https://leetcode.com/problems/sort-array-by-increasing-frequency/          |                                         |
