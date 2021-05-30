@@ -10,6 +10,7 @@
 | 15        | 3Sum                                        | Yes       | https://leetcode.com/problems/3sum/                                        | Array, 2 Pointer, Hash                  |
 | 17        | Letter Combinations of a Phone Number       | No        | https://leetcode.com/problems/letter-combinations-of-a-phone-number/       |                                         |
 | 19        | Remove Nth Node from End of List            | Yes       | https://leetcode.com/problems/remove-nth-node-from-end-of-list/            | Linked List                             |
+| 20        | Valid Parenthesis                           | Yes       | https://leetcode.com/problems/remove-nth-node-from-end-of-list/            | Stack using Linked List                 |
 | 21        | Merge Two Sorted Lists                      | Yes       | https://leetcode.com/problems/merge-two-sorted-lists/                      |                                         |
 | 22        | Generate Parenthesis                        | No        | https://leetcode.com/problems/generate-parentheses/                        |                                         |
 | 26        | Remove Duplicates from Sorted Array         | Yes       | https://leetcode.com/problems/remove-duplicates-from-sorted-array/         |                                         |
