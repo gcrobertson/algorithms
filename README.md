@@ -84,6 +84,7 @@
 | 543       | Diameter of Binary Tree                              | No        | https://leetcode.com/problems/diameter-of-binary-tree/                              |                                         |
 | 547       | Friend Circles                                       | Yes       | https://leetcode.com/problems/friend-circles/                                       |                                         |
 | 572       | Subtree of Another Tree                              | Yes       | https://leetcode.com/problems/subtree-of-another-tree/                              | Tree, BFS, Preorder, Recursion          |
+| 617       | Merge Two Binary Trees                               | Yes       | https://leetcode.com/problems/merge-two-binary-trees/                               | Binary Tree, Recursion                  |
 | 682       | Baseball Game                                        | Yes       | https://leetcode.com/problems/baseball-game/                                        | Array, Switch statement                 |
 | 684       | Redundant Connections                                | Yes       | https://leetcode.com/problems/redundant-connection/                                 |                                         |
 | 695       | Max Area of Island                                   | Yes       | https://leetcode.com/problems/max-area-of-island/                                   |                                         |
