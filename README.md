@@ -75,6 +75,7 @@
 | 393       | UTF-8 Validation                                       | Yes       | https://leetcode.com/problems/utf-8-validation/                                       |                                         |
 | 398       | Random Pick Index                                      | Yes       | https://leetcode.com/problems/random-pick-index/                                      |                                         |
 | 399       | Evaluate Division                                      | No        | https://leetcode.com/problems/evaluate-division/                                      |                                         |
+| 415       | Add Strings                                            | Yes       | https://leetcode.com/problems/add-strings/                                            | Stringbuilder, Modulus                  |
 | 443       | String Compression                                     | Yes       | https://leetcode.com/problems/string-compression/                                     |                                         |
 | 463       | Island Perimeter                                       | Yes       | https://leetcode.com/problems/island-perimeter/                                       | Matrix                                  |
 | 498       | Diagonal Traverse                                      | Yes       | https://leetcode.com/problems/diagonal-traverse/                                      | Bucket sorting, Matrix                  |
